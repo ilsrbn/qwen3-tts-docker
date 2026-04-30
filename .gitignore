@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# Local runtime output
+outputs/
+
+# TLS certificates and private keys
+certs/
+*.key
+*.crt
+*.pem
+*.p12
+*.pfx
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Tooling / IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Optional local caches
+.huggingface/
